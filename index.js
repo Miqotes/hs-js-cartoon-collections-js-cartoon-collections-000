@@ -1,6 +1,6 @@
 function dwarfRollCall(dwarves) {
 var output = [];
-for (var i = 0; i < dwarves.length ; i++) {
+for (var i = dwarves.length/2; i < dwarves.length ; i++) {
   output.push(`${i + 1}. ${dwarves[i]} `)
 }
 return output.join("")
@@ -37,7 +37,7 @@ return "no cheese!"
 function wordsWithB(words) {
   var newArray = []
   for (var i  = 0 ; i < words.length ; i++) {
-  if (words[i].char == "b") {
+  if (words[i].charAt(0) == "b") {
   newArray.push(words[i])
   
   }
