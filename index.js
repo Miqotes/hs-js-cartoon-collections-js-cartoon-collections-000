@@ -7,7 +7,7 @@ return output.join("")
 }
 
 function summonCaptainPlanet(planeteerCalls){
-return planeteerCalls.map(a=>a.toUpperCase()+"!")
+return planeteerCalls.map(string=>string.toUpperCase()+"!")
   
 }
 
