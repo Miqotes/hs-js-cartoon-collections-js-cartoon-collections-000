@@ -33,3 +33,11 @@ function findTheCheese (foods) {
 }
 return "no cheese!"
 }
+
+function wordsWithB(words) {
+  for (var i  = 0 ; i < words.length ; i++) {
+  if (words[i] == b) 
+  return words[i] 
+    
+  }
+}
