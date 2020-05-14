@@ -35,9 +35,12 @@ return "no cheese!"
 }
 
 function wordsWithB(words) {
+  var newArray = []
   for (var i  = 0 ; i < words.length ; i++) {
-  if (words[i] == b) 
-  return words[i] 
-    
+  if (words[i] == "b") {
+  newArray.push(words[i])
+  
   }
+  }
+  return newArray; 
 }
