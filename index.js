@@ -37,7 +37,7 @@ return "no cheese!"
 function wordsWithB(words) {
   var newArray = []
   for (var i  = 0 ; i < words.length ; i++) {
-  if (words[i] == "b") {
+  if (words[i].char == "b") {
   newArray.push(words[i])
   
   }
